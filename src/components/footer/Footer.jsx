@@ -4,6 +4,7 @@ import {
     FaInstagram,
     FaTwitter,
     FaLinkedin,
+    FaGithub,
 } from "react-icons/fa";
 
 import ContentWrapper from "../contentWrapper/ContentWrapper";
@@ -22,26 +23,21 @@ const Footer = () => {
                     <li className="menuItem">FAQ</li>
                 </ul>
                 <div className="infoText">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur.
+                    Movix provide you with new movie releases every week
                 </div>
                 <div className="socialIcons">
-                    <span className="icon">
+                    <a href="https://www.facebook.com/johnsdanlami" className="icon">
                         <FaFacebookF />
-                    </span>
-                    <span className="icon">
-                        <FaInstagram />
-                    </span>
-                    <span className="icon">
+                    </a>
+                    <a href="https://github.com/Johnsmccain" className="icon">
+                        <FaGithub />
+                    </a>
+                    <a href="https://twitter.com/johnsdanlami" className="icon">
                         <FaTwitter />
-                    </span>
-                    <span className="icon">
+                    </a>
+                    <a href="https://linkedin.com/in/John-danlami-b5a745154" className="icon">
                         <FaLinkedin />
-                    </span>
+                    </a>
                 </div>
             </ContentWrapper>
         </footer>
